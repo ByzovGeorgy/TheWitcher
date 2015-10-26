@@ -2,14 +2,6 @@
 	nav ul li {
 	    float: left;
 	    width: 20%;
-	    white-space: nowrap; /*что бы текст не переносился*/
-	    text-align: center;
-	    background-color: #1f1f1f;
-	    color: white;
-	}
-	nav ul li:hover{
-	    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	    background: #b92828;
 	}
 	#logo{
 		height: 200px;
@@ -23,6 +15,5 @@
 		width: 77%;
 		margin-right: 1%;
 		margin-left: 0px;
-		display: inline-block;
 	}
 }
