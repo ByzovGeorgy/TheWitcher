@@ -1,0 +1,112 @@
+	html, body, div, span, h1, h2, p, a, aside, img, ol, ul, li,
+	 table {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-weight: inherit;
+	    font-style: inherit;
+	    font-size: 100%;
+	    font-family: inherit;
+	    vertical-align: baseline;
+	}
+	body {
+	    font: 12px Helvetica, Arial, sans-serif;
+	    background: #525252;
+	}
+		#home{
+		margin-right: auto;
+	    margin-left: auto;
+	    width: 99%;
+	    background-color: #525252;
+	    margin-bottom: 4px;
+	}
+	header{
+		margin-right: auto;
+	    margin-left: auto;
+		width: 98%;
+	}
+	nav {
+	    display: table;
+	    margin-bottom: 4px;
+	    margin-top: 10px;
+	    width: 100%;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	nav ul li a { 
+		height: 42px;
+		text-decoration: none;  
+		color: white; 
+		text-shadow: 0 1px 0 hsla(0, 0%, 100%, 1.0);
+		font: 1.875em/42px 'BebasNeueRegular';
+		display: block;	
+	}
+	#logo{
+		width: 75%;
+		display: inline-block;
+	}
+	.logotip{
+		text-align: center;
+	}
+
+	.theWitcherScreen{
+		width: 96%;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	#info-suit{
+		font-size: 200%;
+		font-family: "Monotype Corsiva";
+		background-color: #1f1f1f;
+		margin-bottom: 10px;
+		    border-bottom-color: #bfbfbf;
+	    border-bottom-style: double;
+	    border-bottom-width: 4px;
+	}
+	aside{
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-top: 20px;
+		padding-bottom: 5px;
+		background-color: #1f1f1f;
+		color: white;
+		text-align: center;
+	}
+		h1{
+		margin: 5px;
+		margin-top: 10px;
+		font-size: 150%;
+		font-family: "Monotype Corsiva";
+	}
+		#container{
+		margin-top: 16px;
+		margin-bottom: 10px;
+		background-color: #1f1f1f;
+		color: white;
+		font-size: 150%;
+		font-family: "Monotype Corsiva";
+	}
+		#container h1, h2{
+		font-size: 200%;
+		margin: 5px;
+		margin-top: 10px;
+	}
+	#container p, #container li{
+		margin-left: 10px;
+	}
+	#container div{
+		text-align: center;
+		padding: 10px;
+	}
+		#container div img{
+		width: 70%;
+		margin-left: 1%;
+		margin-right: 1%;
+		text-align: center;
+		display: inline-block;
+	}
+	.images{
+		display: inline-block;
+	}
