@@ -4,7 +4,8 @@ html, body, div, span, h1, h2, p, a, aside, img, ol, ul, li, table, nav {
     border: 0;
 }
 body {
-    font: 12px "Monotype Corsiva";
+    font-family: "Monotype Corsiva";
+    font-size: 12px;
     background: #525252;
     color: white;
 }
@@ -72,7 +73,7 @@ aside h1{
 }
 #container{
 	margin-top: 16px;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
 	background-color: #1f1f1f;
 	font-size: 150%;
 }
@@ -103,4 +104,15 @@ nav ul li {
 nav ul li:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background: #b92828;
+}
+footer{
+	width: 98%;
+	float: right;
+	background-color: #1f1f1f;
+	margin: auto;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-bottom: 16px;
+	margin-top: 4px;
+	font-size: 12px;
 }
